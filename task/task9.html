@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task9</title>
+</head>
+
+<body>
+    <h3>запись на курсы</h3>
+    <hr>
+    <form>
+        <p>
+            <label for="login">Имя:</label> <br>
+            <input type="text" id="login" name="login" required>
+        </p>
+        <p>
+            <label for="lang">Язык программирования:</label> <br>
+            <input type="radio" id="lang" name="lang">C++ <br>
+            <input type="radio" name="lang" checked>PHP <br>
+            <input type="radio" name="lang">Python
+        </p>
+        <p>
+            <label for="inf">Дополнительная информация:</label> <br>
+            <textarea name="inf" id="inf" cols="30" rows="S">
+Есть опыт программирования на С++
+        </textarea>
+        </p>
+        <p>
+            <label for="secret">Секретное слово:
+            </label> <br>
+            <input type="password" id="secret" name="secret">
+        </p>
+        <p>
+            <input type="submit" name="send" value="Отправить">
+            <input type="reset" name="res" value="Очистить">
+        </p>
+    </form>
+</body>
+
+</html>
