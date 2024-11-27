@@ -1,0 +1,32 @@
+.td_1{
+    background-color: #e7a1d0;
+    text-align: center;
+    color: white;
+}
+
+.td_2{
+    background-color: rgb(132, 244, 132);
+    text-align: center;
+    color: white;
+}
+
+.td_3, .td_4{
+background-color: rgb(170, 234, 170);
+text-align: center;
+color: black;
+}
+
+.tr_1{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.td_5{
+    background-color: rgb(186, 112, 186);
+text-align: center;
+
+}
+
+.tr_2{
+    text-align: center;
+}
