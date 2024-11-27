@@ -10,48 +10,57 @@
    <h2>Форма заявки на работу в зоопарке</h2> 
    <h5><i>Пожалуйста, заполните форму. Обязательные поля помечены*</i></h5>
 <form>
-   <table border="1" cellspacing="0">
-    <tr>Контактная информация
+   <fieldset>
+    <legend>Контактная информация</legend>
+    <tr>
         <td>
     <p class="p_1">
         <label for="login">Имя*</label>
         <input class="input_3" type="text" id="login" name="login" required><br>
     </p>
     <p class="p_1">
-        <label for="login">Телефон</label>
-        <input class="input_2" type="text" id="login" name="login" required><br>
+        <label for="tel">Телефон</label>
+        <input class="input_2" type="text" id="tel" name="tel" placeholder="+375-29-611-12-13" pattern="\+\d{3}\-\d{2}\-d{3}\-d{2}\-d{2}" required><br>
     </p>
     <p class="p_1">
-        <label for="login">Email*</label>
-        <input class="input" type="text" id="login" name="login" required><br>
+        <label for="email">Email*</label>
+        <input class="input" type="text" id="email" name="email" required><br>
 
     </p>
         </td>
 </tr>
-</table><br>
+</fieldset>
+<br>
 
-<table border="1" cellspacing="0">
-    <tr>Персональная информация
+<fieldset>
+  <legend>Персональная информация</legend>
         <td class="td_2">
     <p class="p_2">
-        <label for="login">Возраст*</label>
-        <input class="i_1" type="text" id="login" name="login" required><br>
+        <label for="age">Возраст*</label>
+        <input class="i_1" type="number" step="1" min="18" max="65" id="age" name="age" required><br>
     </p>
     <p class="p_2">
-        <label for="login">Пол</label>
-        <input class="i_2" type="text" id="login" name="login" required><br>
+        <label for="gender">Пол</label>
+        <input list="gender"  class="i_2" type="text" id="login" name="login" required><br>
+   
     </p>
+    <datalist id="gender">
+        <option value="Мужской">
+            <option value="Женский">
+        </option>
+    </datalist>
     <p class="p_2">
-        <label for="login">Перечислите<br> личные<br> качества</label>
-        <input class="i_3" type="text" id="login" name="login" required><br>
+        <label for="personality">Перечислите<br> личные<br> качества</label>
+        <input class="i_3" type="text" id="personality" name="personality" required><br>
 
     </p>
         </td>
-</tr>
-</table><br>
 
-<table border="1" cellspacing="0">
-    <tr>Выберите ваших любимых животных
+</fieldset>
+<br>
+
+<fieldset>
+   <legend>Выберите ваших любимых животных</legend>
         <td>
     <p class="p_3">
         <label for="lang"></label>
@@ -83,8 +92,8 @@
     </p>
 
         </td>
-</tr>
-</table>
+
+</fieldset>
 <p>
     <input type="submit" name="send" value="Отправить информацию">
 </form>
