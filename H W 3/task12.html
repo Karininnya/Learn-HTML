@@ -10,7 +10,7 @@
    <h2>Форма заявки на работу в зоопарке</h2> 
    <h5><i>Пожалуйста, заполните форму. Обязательные поля помечены*</i></h5>
 <form>
-   <fieldset>
+   <fieldset class="f_1">
     <legend>Контактная информация</legend>
     <tr>
         <td>
@@ -32,15 +32,15 @@
 </fieldset>
 <br>
 
-<fieldset>
+<fieldset class="f_2">
   <legend>Персональная информация</legend>
         <td class="td_2">
     <p class="p_2">
-        <label for="age">Возраст*</label>
+        <label for="age" class="v">Возраст*</label>
         <input class="i_1" type="number" step="1" min="18" max="65" id="age" name="age" required><br>
     </p>
     <p class="p_2">
-        <label for="gender">Пол</label>
+        <label for="gender" class="pl">Пол</label>
         <input list="gender"  class="i_2" type="text" id="login" name="login" required><br>
    
     </p>
@@ -50,7 +50,7 @@
         </option>
     </datalist>
     <p class="p_2">
-        <label for="personality">Перечислите<br> личные<br> качества</label>
+        <label for="personality" class="per">Перечислите<br> личные<br> качества</label>
         <input class="i_3" type="text" id="personality" name="personality" required><br>
 
     </p>
@@ -59,7 +59,7 @@
 </fieldset>
 <br>
 
-<fieldset>
+<fieldset class="f_3">
    <legend>Выберите ваших любимых животных</legend>
         <td>
     <p class="p_3">

@@ -1,7 +1,14 @@
-
+.f_1{
+    margin-right: 579px;
+    padding-bottom: 10px;
+}
 
 .p_1{
     width: 350px;
+}
+
+.f_2{margin-right: 579px;
+padding-bottom: 39px;
 }
 
 .p_2{
@@ -10,6 +17,7 @@
 
 .p_3{
 width: 350px;
+
 }
 
 .td_2{
@@ -35,14 +43,14 @@ width: 350px;
 }
 
 .i_1{
-    padding-right: 77px;
-    margin-left: 81px;
+    padding-right: 188px;
+    margin-left: 95px;
 
 }
 
 .i_2{
-    padding-right: 77px;
-    margin-left: 81px;
+    padding-right: 83px;
+    margin-left: 95px;
     
    
 
@@ -50,6 +58,22 @@ width: 350px;
 
 .i_3{
     padding-right: 80px;
-    margin-left: 78px;
+    margin-left: 97px;
 
+}
+
+.f_3{
+    margin-right: 579px;
+}
+.v{
+    position: absolute;
+}
+
+.pl{
+    position: absolute;
+}
+
+.per{
+    position: absolute;
+ 
 }
