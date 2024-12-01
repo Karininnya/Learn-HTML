@@ -1,10 +1,12 @@
 .format_block{
-    width: 300px;
+    width: 169px;
     margin: auto;
-    margin-top: 3em;
-    padding: 1em;
-    border: 1px solid black;
+    margin-top: 6em;
+    padding: 0em;
+    border: 2px solid black;
     cursor: pointer;
+   
+   
     
 }
 
@@ -13,8 +15,9 @@
 
      }
 
-     div:hover {
+     .div:hover {
         color: orange;
+      
      }
 
-      
+     
