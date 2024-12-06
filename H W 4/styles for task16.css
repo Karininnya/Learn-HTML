@@ -1,0 +1,44 @@
+h1, h2{
+    color: orange;
+}
+
+i{
+    background-color: green;
+    color: white;
+}
+.h2{
+    color: blue;
+}
+
+.ol1{
+    color: grey;
+}
+.ol2{
+    color: red;
+}
+
+.ol3{
+    color: green;
+}
+
+td{
+    font-weight: bold;
+}
+
+  tr:first-child,
+tr:last-child {
+
+    background-color: green;
+    
+}
+
+td:first-child,
+td:last-child {
+   
+    background-color: green;
+}
+
+tr:nth-child(even) td:nth-child(n){background-color: white}
+tr:nth-child(n+1) td:nth-child(n){background-color: white;}
+tr:nth-child(3) td:nth-child(n), tr:nth-child(n+1) td:nth-child(3)
+{background-color: green;}
