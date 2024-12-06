@@ -1,28 +1,38 @@
+
+body{
+    margin: 0 auto;
+}
+
+
 .img{
     display: flex;
-   
+   width: 100px;
 }
 
 .img1{
-    padding: 100px;
+ 
     display: flex;
     flex-direction: column;
     align-items: justify center;
+padding-left: 380px;
  
 }
 
 .img2{
-    padding: 97px;
+    
     display: flex;
     flex-direction: column;
     align-items: justify center;
+    padding-left: 380px;
+    padding-right: 380px;
 }
 
 .img3{
-    padding: 92px;
+   
     display: flex;
     flex-direction: column;
     align-items: justify center;
+padding-right: 380px;
 }
 
 h3{
@@ -34,4 +44,7 @@ p{
     color: grey;
     opacity: 10;
     text-align: center;
+    
 }
+
+
