@@ -5,15 +5,24 @@
 
 .img1{
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: justify center;
  
 }
 
 .img2{
     padding: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: justify center;
 }
 
 .img3{
     padding: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: justify center;
 }
 
 h3{
