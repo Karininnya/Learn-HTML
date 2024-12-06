@@ -1,0 +1,28 @@
+.img{
+    display: flex;
+   
+}
+
+.img1{
+    padding: 100px;
+ 
+}
+
+.img2{
+    padding: 97px;
+}
+
+.img3{
+    padding: 92px;
+}
+
+h3{
+    color: blue;
+    text-align: center;
+}
+
+p{
+    color: grey;
+    opacity: 10;
+    text-align: center;
+}
